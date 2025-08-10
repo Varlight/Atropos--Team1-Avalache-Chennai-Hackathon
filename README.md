@@ -11,6 +11,15 @@ A production-ready Next.js DApp for lottery and coin flip games on Avalanche Fuj
 - **Lazy Settlement**: Automatic round transitions
 - **Mobile Responsive**: Tailwind CSS with Avalanche-inspired design
 
+## Screenshots
+
+![Screenshot 2025-08-10 145241](./Screenshot%202025-08-10%20145241.png)
+![Screenshot 2025-08-10 150518](./Screenshot%202025-08-10%20150518.png)
+![Screenshot 2025-08-10 150552](./Screenshot%202025-08-10%20150552.png)
+![Screenshot 2025-08-10 151011](./Screenshot%202025-08-10%20151011.png)
+![Screenshot 2025-08-10 163737](./Screenshot%202025-08-10%20163737.png)
+![Screenshot 2025-08-10 185159](./Screenshot%202025-08-10%20185159.png)
+
 ## Quick Start
 
 ### Prerequisites
@@ -203,4 +212,4 @@ This happens in a single transaction.
 
 ## License
 
-MIT License - see LICENSE file for details.
+GPL-3.0 - see `LICENSE` file for details.

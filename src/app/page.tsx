@@ -58,13 +58,13 @@ export default function Home() {
             href="/lottery"
             className="bg-gradient-lava hover:from-lava-600 hover:to-lava-700 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-200 text-lg"
           >
-            Play Lottery
+            Play Lottery Rounds
           </Link>
           <Link
             href="/coinflip"
             className="bg-avalanche-700/50 hover:bg-avalanche-600/50 border border-avalanche-600/50 hover:border-avalanche-500/50 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-200 text-lg"
           >
-            Flip Coins
+            50/50 Duels
           </Link>
         </div>
       </div>
@@ -77,7 +77,7 @@ export default function Home() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 008 9.172V5L8 4z" />
             </svg>
           </div>
-          <h2 className="text-2xl font-grotesk font-bold text-white mb-4">Lottery</h2>
+          <h2 className="text-2xl font-grotesk font-bold text-white mb-4">Lottery Rounds</h2>
           <p className="text-avalanche-200 mb-6 leading-relaxed">
             Join Turbo (3 min) or Classic (15 min) lottery rounds. Buy multiple tickets to increase your chances. 
             Winner takes 90% of the pot.
@@ -104,7 +104,7 @@ export default function Home() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
             </svg>
           </div>
-          <h2 className="text-2xl font-grotesk font-bold text-white mb-4">PvP Coin Flip</h2>
+          <h2 className="text-2xl font-grotesk font-bold text-white mb-4">50/50 Duels</h2>
           <p className="text-avalanche-200 mb-6 leading-relaxed">
             Join betting pools and get matched instantly with other players. 
             50/50 odds, winner gets 95% of the combined pot.
@@ -112,13 +112,13 @@ export default function Home() {
           <div className="space-y-2 text-sm text-avalanche-300 mb-6">
             <div>• Instant matching with other players</div>
             <div>• Multiple bet amounts available</div>
-            <div>• Coin Flip fee: 5% house • Winner gets 95% of the pot</div>
+            <div>• Duel fee: 5% house • Winner gets 95% of the pot</div>
           </div>
           <Link
             href="/coinflip"
             className="inline-flex items-center text-lava-400 hover:text-lava-300 font-semibold transition-colors"
           >
-            Flip Now
+            Duel Now
             <svg className="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
