@@ -26,13 +26,13 @@ export function Header() {
                 href="/lottery" 
                 className="text-avalanche-200 hover:text-white transition-colors duration-200 font-medium"
               >
-                Lottery
+                Raffle
               </Link>
               <Link 
                 href="/coinflip" 
                 className="text-avalanche-200 hover:text-white transition-colors duration-200 font-medium"
               >
-                Coin Flip
+                Duel
               </Link>
             </nav>
           </div>

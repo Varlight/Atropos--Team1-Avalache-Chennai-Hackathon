@@ -323,12 +323,12 @@ export default function LotteryPage() {
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="text-center mb-8">
-        <h1 className="text-4xl font-grotesk font-bold text-white mb-4">Lottery</h1>
+        <h1 className="text-4xl font-grotesk font-bold text-white mb-4">Raffle</h1>
         <p className="text-xl text-avalanche-200 mb-6">
           Choose your mode and try your luck!
         </p>
         <div className="text-sm text-avalanche-300 space-y-1">
-          <div>Lottery fee: 10% house • Winner: 90% of pot.</div>
+          <div>Raffle fee: 10% house • Winner: 90% of pot.</div>
           <div>Gas is paid to the network and is separate from fees.</div>
         </div>
       </div>

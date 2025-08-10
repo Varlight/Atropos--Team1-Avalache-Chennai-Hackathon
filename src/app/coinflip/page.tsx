@@ -209,12 +209,12 @@ export default function CoinFlipPage() {
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="text-center mb-8">
-        <h1 className="text-4xl font-grotesk font-bold text-white mb-4">PvP Coin Flip</h1>
+        <h1 className="text-4xl font-grotesk font-bold text-white mb-4">Duel</h1>
         <p className="text-xl text-avalanche-200 mb-6">
           Choose your bet amount and get matched with another player!
         </p>
         <div className="text-sm text-avalanche-300 space-y-1">
-          <div>Coin Flip fee: 5% house • Winner gets 95% of the pot.</div>
+          <div>Duel fee: 5% house • Winner gets 95% of the pot.</div>
           <div>Gas is paid to the network and is separate from fees.</div>
         </div>
       </div>
