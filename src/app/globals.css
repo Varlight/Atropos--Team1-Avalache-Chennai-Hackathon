@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @apply bg-gradient-avalanche text-white;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-avalanche-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-avalanche-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-avalanche-500;
+}
+
+/* Smooth transitions */
+* {
+  @apply transition-colors duration-200;
+}

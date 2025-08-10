@@ -1,0 +1,11 @@
+'use client';
+
+import { getDefaultConfig } from '@rainbow-me/rainbowkit';
+import { avalancheFuji } from './chains';
+
+export const config = getDefaultConfig({
+  appName: 'Avalanche Lottery',
+  projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID!,
+  chains: [avalancheFuji],
+  ssr: false,
+});
