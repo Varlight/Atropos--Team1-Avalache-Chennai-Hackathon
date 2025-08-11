@@ -57,7 +57,7 @@ export function useCurrentRoundInfo(mode: Mode) {
   };
 }
 
-export function useUserTickets(mode: Mode, address?: string) {
+export function useUserTickets(mode: Mode, address?: `0x${string}`) {
   return useReadContract({
     address: CONTRACT_ADDRESS,
     abi: contractABI,
@@ -123,7 +123,7 @@ export function useWaitingCountByIndex(index: number) {
   });
 }
 
-export function usePlayerWaitingAmount(address?: string) {
+export function usePlayerWaitingAmount(address?: `0x${string}`) {
   return useReadContract({
     address: CONTRACT_ADDRESS,
     abi: contractABI,
