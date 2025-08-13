@@ -83,28 +83,28 @@ export function useFixedBetAmounts() {
     address: CONTRACT_ADDRESS,
     abi: contractABI,
     functionName: 'fixedBetAmounts',
-    args: [0],
+    args: [0n],
   });
   
   const bet1 = useReadContract({
     address: CONTRACT_ADDRESS,
     abi: contractABI,
     functionName: 'fixedBetAmounts',
-    args: [1],
+    args: [1n],
   });
   
   const bet2 = useReadContract({
     address: CONTRACT_ADDRESS,
     abi: contractABI,
     functionName: 'fixedBetAmounts',
-    args: [2],
+    args: [2n],
   });
   
   const bet3 = useReadContract({
     address: CONTRACT_ADDRESS,
     abi: contractABI,
     functionName: 'fixedBetAmounts',
-    args: [3],
+    args: [3n],
   });
 
   return {
@@ -119,7 +119,7 @@ export function useWaitingCountByIndex(index: number) {
     address: CONTRACT_ADDRESS,
     abi: contractABI,
     functionName: 'getWaitingCountByIndex',
-    args: [index],
+    args: [BigInt(index)],
   });
 }
 
