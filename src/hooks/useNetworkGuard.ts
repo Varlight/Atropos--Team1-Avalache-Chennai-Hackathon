@@ -30,7 +30,7 @@ export function useNetworkGuard() {
               chainName: avalancheFuji.name,
               nativeCurrency: avalancheFuji.nativeCurrency,
               rpcUrls: avalancheFuji.rpcUrls.default.http,
-              blockExplorerUrls: [avalancheFuji.blockExplorers.default.url],
+              blockExplorerUrls: avalancheFuji.blockExplorers?.default?.url ? [avalancheFuji.blockExplorers.default.url] : [],
             }],
           });
         } catch (addError) {
