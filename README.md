@@ -1,6 +1,6 @@
 # ATROPOS - Avalanche Lottery & Coin Flip
 https://atropos-team1-avalache-chennai-hack-gamma.vercel.app/
-A production-ready Next.js DApp for lottery and coin flip games on Avalanche Fuji testnet.
+An MVP Next.js DApp for Raffle and Duel games on Avalanche Fuji testnet.
 
 ## Features
 
