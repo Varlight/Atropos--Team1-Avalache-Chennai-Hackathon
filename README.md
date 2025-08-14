@@ -1,4 +1,4 @@
-# ATROPOS - Avalanche Lottery & Coin Flip
+# ATROPOS - Avalanche Raffles & 50/50 Duels
 https://atropos-team1-avalache-chennai-hack-gamma.vercel.app/
 An MVP Next.js DApp for Raffle and Duel games on Avalanche Fuji testnet.
 
